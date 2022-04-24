@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+/* reset -> 기본 */
+
+#wrap{
+    width:600px;
+    height:440px;
+    background-color:gold;
+    margin:50px auto;
+    padding:20px;
+    box-sizing: border-box;
+}
+
+header{
+    margin-bottom:20px;
+    
+}
+
+h1{
+    width:500px;
+    background-color:white;
+    margin-left:30px;
+    text-align: center;
+    color:red;
+    font-weight: bolder;
+    line-height: 30px;
+    font-style:italic;
+    
+}
+
+#contents{
+   background-color: green;
+    margin-bottom:10px;
+    overflow: hidden;
+}
+.left{
+    width:280px;
+    background-color:green;
+    float:left;
+    font-style: italic;
+    line-height: 20px;
+    
+}
+.right{
+    /* font-size:15px; */
+    width:280px;
+    float:right;
+    background-color:red;
+    font-style: italic;
+    line-height: 20px;
+}
+footer{
+    width:500px;
+    background-color: gray;
+    line-height: 30px;
+    text-align: center;
+    margin-left:30px;
+    clear: both;
+    margin-top:15px;
+    font-style: italic;
+}
+

@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+p{width:150px; height:100px;
+float:left;
+margin-right:50px;
+border:2px solid #666;}
+
+.box_01{
+    /* height:auto; */
+    /* overflow:visible; */
+    overflow: hidden;
+}
+.box_02{
+    overflow: scroll;
+}
+.box_03{
+    overflow: auto;
+}
